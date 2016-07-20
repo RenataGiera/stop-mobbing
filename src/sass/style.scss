@@ -1,0 +1,300 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+$red: #cd0e0c;
+$bg-blue: #dde3e4;
+
+
+
+body{
+	background-color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  	color: #024045;
+  	font-size: 14px;
+  	line-height: 1.5em;
+  	 	
+}
+
+.nopadding {
+	padding: 0
+}
+.alert-question {
+	padding: 10px
+}
+
+%bg-h1 {
+	background-color: #054d56;
+	background-color:rgba(5,77,86,0.9);
+	padding: 2px 7px 2px 7px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 2.4em;
+	line-height: 1.65;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+	span {
+		@extend %bg-h1;
+	}
+}
+
+.h1-small {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 0.8;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	
+	span {
+		@extend %bg-h1;
+	}
+}
+
+h2 { 
+	@extend %bg-h1;
+	padding: 4px 7px 6px 7px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+h3{
+	font-family: 'Gentium Basic', serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #b2802c;
+	padding: 5px 0;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.btn-web {
+	border-radius: 10px;
+	background-color: $red;
+	text-transform: uppercase;
+	padding: 5px 45px;
+	margin-bottom: 20px;
+	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		background-color: #750c0b;
+	}
+}
+
+.bg {
+	background-color: #fff;
+}
+
+.bg-margin{
+	@extend .bg;
+	margin-top: 5px;
+	
+
+}
+
+.navbar {
+	background-color:#000;
+}
+
+.header-p1 {
+	font-size: 18px;
+	line-height: 1.3em;
+	margin-top: 30px;
+}
+.header-p2 {
+	font-size: 25px;
+	color: $red;
+	line-height: 1em;
+	margin-top: 20px;
+}
+.header-p3 {
+	font-size: 20px;
+	line-height: 1.3em;
+	margin-top: 15px;
+}
+.rezwerwacja {
+	margin-top: 30px;
+}
+.header-top {
+	width: 100%;
+}
+.header-img {
+	background: url("../images/img1s.jpg") no-repeat;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+	    
+    .bgimage-inside {
+    	padding-top: (748*100%)/778;
+    	   	
+    	.bgimage-inside-h1 {
+    		margin-top: (-450*100%)/778;
+    	}
+    }
+}
+
+.video-margin1, .video-margin {
+	padding-bottom: 15px;
+}
+
+.form-control {
+	border-radius: 0px;
+	background-color: #fff;
+	
+}
+
+.send-btn {
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+
+footer {
+		background-color: $bg-blue;
+		padding-top: 7px;			
+}
+
+/* fixing header slogan */
+@media (min-width: 480px) {
+	h1 {	
+		font-size: 3.8em;		
+	}
+
+	.h1-small {
+		font-size: 2.1em; 
+		  	
+	}
+}
+
+
+ 
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	body{
+	 	font-size: 16px;
+	}
+	
+	h1 {	
+		font-size: 3.8em;		
+	}
+
+	.h1-small {
+		font-size: 2.2em; 		  	
+	}
+	
+	.header-img {	 
+	 	background-image: url("../images/img1.jpg");
+	 	background-size: auto;
+	 	background-position: center;
+	 	    
+    .bgimage-inside {
+    	padding-top: 683px;
+    	   	
+    	.bgimage-inside-h1 {
+    		margin-top: -350px;
+    	}
+    }
+	 	
+	 	 
+	}
+	.header-p1 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 32px;
+	}
+	
+	footer {			
+		.copyright {
+			text-align: left !important;
+		}
+		.designed {
+			text-align: right !important;
+		}		
+	}
+ }
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	h3 {
+		font-size: 42px;
+	}
+	.header-p1 {
+		padding: 0 30px;
+	}
+	.header-p2 {
+	font-size: 35px;
+	color: $red;
+	line-height: 1em;
+	margin-top: 20px;
+}
+	.video-margin1{
+		padding: 0 50px 15px 25px;
+	}
+	
+	.video-margin{
+		padding: 0 25px 15px 50px;
+	}
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	body{
+	 	 background-color: $bg-blue;
+	h3 {
+		font-size: 48px;
+	}
+	.header-top {
+		 background: -moz-linear-gradient(top, #add2d6 0%, #dde3e4 503px);
+		 background: -webkit-linear-gradient(top, #add2d6 0%,#dde3e4 503px);
+		 background: linear-gradient(to bottom, #add2d6 0%,#dde3e4 503px);
+		 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add2d6', endColorstr='#dde3e4',GradientType=0 );
+	}
+	}
+	.header-p1 {
+		font-size: 29px;
+		padding: 0 65px;
+	}
+	.btn-web {
+		font-size: 1.5em;
+		margin-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 400px) { 
+
+	h2 { 
+	font-size: 1.5em;
+	padding: 2px 7px 4px 7px;
+	margin-bottom: 20px;
+	}
+	.header-p1 {
+		font-size: 16px;
+}
+	.footer {
+		font-size: 0.8em;
+		padding-top: 7px;
+		text-align: right;
+	}
+}
+
+ 
+ 
