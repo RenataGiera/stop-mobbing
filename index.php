@@ -1,6 +1,6 @@
 ﻿<?php
 $subjectPrefix = '[Contato via Site]';
-$emailTo = 'renatagiera@gmail.com ';
+$emailTo = 'renatagiera@gmail.com';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $message  = stripslashes(trim($_POST['form-mensagem']));
