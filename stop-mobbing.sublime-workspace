@@ -352,10 +352,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/xampp/htdocs/Appsme/index.html",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 3,
+				"buffer_size": 38,
 				"line_ending": "Windows"
 			}
 		}
@@ -430,7 +430,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/Appsme"
+		"/C/xampp/htdocs/mobbing3"
 	],
 	"file_history":
 	[
@@ -565,7 +565,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -829,24 +829,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/Appsme/index.html",
-					"semi_transient": false,
+					"file": ".gitignore",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3,
+						"buffer_size": 38,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3,
-								3
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -860,7 +860,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -898,10 +898,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/User/node.sublime-build",
-	"project": "appsme.sublime-project",
+	"project": "stop-mobbing.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

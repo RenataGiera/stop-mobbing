@@ -2,3 +2,5 @@
 thumbs.db
 *.log
 node_modules
+*.sublime-project
+*.stop-mobbing.sublime-workspace

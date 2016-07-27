@@ -64,10 +64,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   </nav>
   -->
               
-  <header class="header-top">
+  <header class="header-img">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 header-img">
+            <div class="col-lg-12">
                    <div class="bgimage-inside">
                       <h1 class="bgimage-inside-h1 text-center"><span> Akcja  Antymobbingowa </span> </h1>
                       <div class="h1-small text-center"><span>Masz Prawo Mieć Prawo</span></div>
