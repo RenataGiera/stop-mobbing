@@ -1,6 +1,23 @@
+-dploy.yaml
+# OS generated files #
+######################
 .DS_Store
-thumbs.db
-*.log
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Node files #
+######################
 node_modules
+
+# Project files #
+######################
+lib
+compile
 *.sublime-project
-*.stop-mobbing.sublime-workspace
+*.sublime-workspace
+

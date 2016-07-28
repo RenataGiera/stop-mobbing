@@ -1,0 +1,11 @@
+dev:
+    scheme: ftp
+    host: s8.hekko.net.pl
+    port: 21
+    user: info@stop-mobbing.co.uk
+    pass: cJhpYWv9
+    check: true
+    path:
+        local: 
+        remote: public_html/
+
