@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   <body>
 
     
-  <!--
+
   <nav id="navbar" class="navbar nopadding">
     <ul class="nav nav-pills">
      <li><a class="center-block" role="button" href="http://www.apsik.co.uk/index.php/24-czytelnia-apsik-a/wywiady/188-masz-prawo-miec-prawo">Media o nas </a></li> 
@@ -62,7 +62,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
       <li><a role="button" href="#">Kontakt</a></li> 
     </ul>
   </nav>
-  -->
+ 
               
   <header class="header-img">
     <div class="container">
